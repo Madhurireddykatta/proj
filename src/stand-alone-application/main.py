@@ -99,7 +99,7 @@ def main():
 	# Attributes of main dialog box
 	global form
 	form = Tkinter.Tk()
-	export DISPLAY=0.0
+	export DISPLAY=:0.0
 	form.wm_title('thrain')
 	'''
 	-------------------------------------------------------------
