@@ -100,6 +100,7 @@ def main():
 	global form
 	form = Tkinter.Tk()
 	export DISPLAY=:0.0
+	xhost +
 	form.wm_title('thrain')
 	'''
 	-------------------------------------------------------------
